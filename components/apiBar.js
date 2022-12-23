@@ -1,6 +1,6 @@
 import React from "react";
 import style from '../styles/apiBar.module.css'
-import ReactJson from 'react-json-view'
+// import ReactJson from 'react-json-view'
 
 export default function ApiBar() {
   const [data, setData] = React.useState({});
@@ -41,10 +41,10 @@ export default function ApiBar() {
           <input type="text" id="url" onChange={handleChange} placeholder="Base Url" className={style.base_url_input}/>
           <button className={style.fetch_button} onClick={fetchData}>Fetch</button>
         </label>
-        <div style={{marginTop: "30px", width: "635px",height:"600px", display: "flex", overflow:"scroll"}}>
+        {/* <div style={{marginTop: "30px", width: "635px",height:"600px", display: "flex", overflow:"scroll"}}>
           {data === {} ? <div></div>: <ReactJson src={data} theme="summerfruit:inverted" style={{width:"100%"}}/>
       }
-      </div>
+      </div> */}
     
     </div>
   );

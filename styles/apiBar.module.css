@@ -1,0 +1,42 @@
+.form1 {
+    margin-top: 30px;
+}
+
+.req_options {
+    font-size: 20px;
+}
+
+.selection {
+    margin-left: 10px;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.selection_dropdown{
+    font-size: 15px;
+}
+
+.base_url_input{
+    height: 40px;
+    width: 300px;
+    margin-right: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.fetch_button{
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    background-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

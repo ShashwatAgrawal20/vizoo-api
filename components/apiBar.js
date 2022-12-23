@@ -1,20 +1,21 @@
 import React from "react";
+import style from '../styles/apiBar.module.css'
 
 export default function ApiBar() {
   const dropdownOptions = ["GET", "POST", "PUT", "DELETE", "PATCH"];
 
   return (
     <div>
-      <form style={{marginTop:"30px"}}>
-        <label style={{fontSize:"20px"}}>
+      <form className={style.form1}>
+        <label className={style.req_options}>
           Request Options
-          <select style={{marginLeft:"10px", height:"40px", width:"80px", fontSize:"20px", paddingLeft:"10px", marginRight:"10px", marginTop:"5px", borderRadius:"5px"}}>
+          <select className={style.selection}>
             {dropdownOptions.map((item, i) => {
-              return <option key={i} style={{fontSize:"15px"}}>{item}</option>
+              return <option key={i} className={style.selection_dropdown}>{item}</option>
             })}
           </select>
-          <input type="text" placeholder="Base Url" style={{height:"40px", width:"300px",marginRight:"10px", fontSize:"20px", paddingLeft:"10px", borderRadius:"5px", borderWidth:"1px"}} />
-          <button type="submit" style={{height:"40px", width:"80px", fontSize:"20px", backgroundColor:"#008080", color:"white", border:"none", borderRadius:"5px"}}>Fetch</button>
+          <input type="text" placeholder="Base Url" className={style.base_url_input}/>
+          <button type="submit" className={style.fetch_button}>Fetch</button>
         </label>
       </form>
     </div>

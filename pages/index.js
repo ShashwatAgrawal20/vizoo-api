@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="description" content="Open source API tool for visualizing requests.  Easily test and debug endpoints." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <ApiBar/>
+      <ApiBar style={{marginLeft:"auto", marginRight:"auto"}}/>
       <main className={`main ${styles.py8}`}>
       </main>
     </div>

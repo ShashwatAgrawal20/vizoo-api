@@ -12,7 +12,6 @@ export default function Home() {
       </Head>
       <ApiBar/>
       <main className={`main ${styles.py8}`}>
-        API stuff goes here
       </main>
     </div>
   )

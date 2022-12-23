@@ -7,6 +7,12 @@ export default function Header () {
             <Link href="/" className={styles.headerLogo}>
                 Vizoo API
             </Link>
+            <Link href="/about" className={styles.headerLogo}>
+                About 
+            </Link>
+            <Link href="/settings" className={styles.headerLogo}>
+                Settings 
+            </Link>
         </div>
     </header>
 }

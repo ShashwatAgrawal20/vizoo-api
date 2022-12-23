@@ -1,9 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to vizoo-api 👋
+![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/brandonbyr4/vizoo-api/blob/main/LICENSE.md)
 
-## Getting Started
+> A ongoing project build in next-js for api's
 
-First, run the development server:
+## Install
 
+Getting the required dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+## Usage
+
+Running the project
 ```bash
 npm run dev
 # or
@@ -32,4 +44,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# vizoo-api" 
+"# vizoo-api"
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check [issues page](https://github.com/brandonbyr4/vizoo-api/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+
+## 📝 License
+
+This project is [MIT](https://github.com/brandonbyr4/vizoo-api/blob/main/LICENSE.md) licensed.
